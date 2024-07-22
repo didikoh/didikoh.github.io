@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/Unity.loader.js";
+  var loaderUrl = buildUrl + "/TonBuild.loader.js";
   var config = {
-    dataUrl: buildUrl + "/Unity.data.gz",
-    frameworkUrl: buildUrl + "/Unity.framework.js.gz",
-    codeUrl: buildUrl + "/Unity.wasm.gz",
+    dataUrl: buildUrl + "/TonBuild.data",
+    frameworkUrl: buildUrl + "/TonBuild.framework.js",
+    codeUrl: buildUrl + "/TonBuild.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "ton-unity-game",

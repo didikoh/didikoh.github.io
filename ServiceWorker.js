@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-ton-unity-game-0.1";
 const contentToCache = [
-    "Build/Unity.loader.js",
-    "Build/Unity.framework.js.gz",
-    "Build/Unity.data.gz",
-    "Build/Unity.wasm.gz",
+    "Build/TonBuild.loader.js",
+    "Build/TonBuild.framework.js",
+    "Build/TonBuild.data",
+    "Build/TonBuild.wasm",
     "TemplateData/style.css"
 
 ];
